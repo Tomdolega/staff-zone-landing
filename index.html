@@ -5,17 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>STAFF.ZONE — premium brand‑match domain • For Acquisition</title>
   <meta name="description" content="STAFF.ZONE — the exact brand string as a domain. Clean, memorable, professional. Ideal as a worker portal and brand‑protection asset. Contact tom@tomdolega.com." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="STAFF.ZONE — premium brand‑match domain • For Acquisition" />
+  <meta property="og:description" content="The exact brand string as a domain. Ideal for worker portals (app.staff.zone, login.staff.zone) and brand protection." />
+  <meta property="og:url" content="https://staff.zone" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0a0a0a/ffffff&text=STAFF.ZONE" />
+  <meta name="twitter:card" content="summary_large_image" />
   <style>
     :root{--bg:#0b0b0d;--card:#111115;--muted:#b7bec7;--text:#e8ecf1;--accent:#8dd6ff;--accent-2:#9ef0b8;--border:rgba(255,255,255,.08);--radius:16px;--shadow:0 8px 30px rgba(0,0,0,.35)}
     *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 1200px at 80% -20%, rgba(141,214,255,.15), transparent 60%),radial-gradient(1200px 1200px at -10% 120%, rgba(158,240,184,.10), transparent 60%),var(--bg);color:var(--text);line-height:1.55}
     a{color:inherit;text-decoration:none}
     .wrap{max-width:1120px;margin:0 auto;padding:32px 20px 80px}
 
     /* Header */
     .header{display:flex;justify-content:space-between;align-items:center;padding:8px 0}
     .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(141,214,255,.18),rgba(158,240,184,.18));border:1px solid var(--border);box-shadow:var(--shadow);font-weight:700}
+    .logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(141,214,255,.18),rgba(158,240,184,.18));border:1px solid var(--border);box-shadow:var(--shadow);font-weight:700;letter-spacing:.5px}
     .meta{font-size:12px;color:var(--muted)}
     .chip{font-size:12px;padding:6px 10px;border:1px solid var(--border);border-radius:999px;color:var(--muted)}
 
@@ -32,11 +38,10 @@
     .cta{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:8px 0 0}
     .btn{border:1px solid var(--border);border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:600}
     .btn.primary{background:linear-gradient(135deg,rgba(141,214,255,.20),rgba(158,240,184,.18))}
-
     .price{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:15px}
     .tag{border:1px solid var(--border);border-radius:999px;padding:8px 12px;color:var(--muted)}
 
-    /* Info box moved below hero */
+    /* Info box (three-column) */
     .info-box{margin-top:32px;background:var(--card);padding:24px;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:18px;align-items:start}
     @media (max-width:980px){.info-box{grid-template-columns:1fr}}
     .info-col{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));border:1px solid var(--border);border-radius:14px;padding:16px}
@@ -44,54 +49,115 @@
     .pill-row{display:flex;flex-wrap:wrap;gap:8px}
     .pill{border:1px solid var(--border);border-radius:999px;padding:6px 10px;font-size:12px;color:var(--muted)}
     .sublist{list-style:none;margin:0;padding:0}
-    .sublist li{padding:6px 0;border-bottom:1px solid var(--border);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;color:var(--muted)}
+    .sublist li{padding:7px 0;border-bottom:1px solid var(--border);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;color:var(--muted)}
     .checklist{list-style:none;margin:0;padding:0}
     .checklist li{display:flex;gap:10px;align-items:flex-start;padding:6px 0}
     .check{flex:0 0 22px;height:22px;border:1px solid var(--border);border-radius:6px;display:grid;place-items:center;background:rgba(141,214,255,.10)}
-    @media (max-width:900px){.info-box{grid-template-columns:1fr}}
-    .info-box h3{grid-column:1/-1;margin:0 0 8px;text-align:center}
-    .info-box ul{list-style:none;padding:0;margin:0;text-align:left}
-    .info-box li{padding:7px 0;border-bottom:1px solid var(--border);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;color:var(--muted)}
 
-    /* Value grid (restored) */
+    /* Value grid */
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
     @media (max-width:980px){.grid{grid-template-columns:1fr 1fr}}
     @media (max-width:640px){.grid{grid-template-columns:1fr}}
     .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
     .card h3{margin:0 0 6px}
 
-    /* Offer & FAQ */
+    /* Offer */
     .offer{margin-top:28px}
-    .faq{margin-top:16px}
-    details{background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
-    details+details{margin-top:10px}
-    summary{cursor:pointer;font-weight:600}
 
     /* Footer */
     footer{margin-top:48px;border-top:1px solid var(--border);padding-top:22px;color:var(--muted);font-size:14px;text-align:center}
-  .sidecard{height:220px;border:1px solid var(--border);border-radius:14px;background:
-      radial-gradient(300px 180px at 40% -20%, rgba(141,214,255,.18), transparent 60%),
-      radial-gradient(300px 180px at 70% 120%, rgba(158,240,184,.16), transparent 60%),
-      linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
-    position:relative;box-shadow:var(--shadow)}
-    .sidecard:before{content:"";position:absolute;inset:14px;border:1px dashed var(--border);border-radius:10px}
-    .sidecard:after{content:"QR";position:absolute;right:18px;bottom:14px;font-size:12px;color:var(--muted);opacity:.7}
-    @media (min-width:901px){.sidecard{display:block!important}}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header class="header">
-      <div class="brand">
+      <a class="brand" href="#" aria-label="STAFF.ZONE">
         <div class="logo">SZ</div>
         <div><b>STAFF.ZONE</b><div class="meta">exact brand‑string domain</div></div>
-      </div>
+      </a>
       <span class="chip">Premium Domain • <b>For Sale</b></span>
     </header>
 
+    <!-- HERO -->
     <section class="hero">
       <h1>STAFF.ZONE — available for acquisition</h1>
-      <p class="lead"><strong>Premium brand‑match domain.</strong> Exact brand string, not just a suffix. Clean, memorable and on‑brand. Ideal as a single entry point for your workforce tools (<em>app.staff.zone</em>, <em>login.staff.zone</em>) and as a brand‑protection asset.</p>
+      <p class="lead"><strong>Premium brand‑match domain.</strong> Exact brand string, not just a suffix. Clean, memorable and on‑brand. Ideal as a single entry point for workforce tools (<em>app.staff.zone</em>, <em>login.staff.zone</em>) and as a brand‑protection asset.</p>
+      <div class="panel">
+        <div class="bullets">
+          <div class="bullet"><div class="tick">✔</div><div><b>Exact brand string</b><div class="meta">Reads the way you say it: STAFF.ZONE — nothing extra.</div></div></div>
+          <div class="bullet"><div class="tick">✔</div><div><b>Made for worker portals</b><div class="meta">Short, memorable subdomains for employees and clients.</div></div></div>
+          <div class="bullet"><div class="tick">✔</div><div><b>Brand safety</b><div class="meta">Helps prevent look‑alike misuse and supports clear, trusted communication.</div></div></div>
+        </div>
+        <div class="cta">
+          <a class="btn primary" href="mailto:tom@tomdolega.com?subject=STAFF.ZONE%20—%20acquisition%20inquiry">Contact: tom@tomdolega.com</a>
+          <a class="btn" href="https://www.godaddy.com/en/domainsearch/find?domainToCheck=staff.zone" target="_blank" rel="noopener">Buy or Lease on GoDaddy</a>
+        </div>
+        <div class="price">
+          <span class="tag"><b>For Sale</b> — Buy‑Now & Lease‑to‑Own available</span>
+          <span class="tag">Escrow protected</span>
+          <span class="tag">Direct inquiries: tom@tomdolega.com</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO BOX: three columns -->
+    <section class="info-box">
+      <div class="info-col">
+        <h4>Typical use cases</h4>
+        <div class="pill-row">
+          <span class="pill">Staffing & recruiting</span>
+          <span class="pill">Field services</span>
+          <span class="pill">Industrial</span>
+          <span class="pill">Events</span>
+          <span class="pill">Hospitality</span>
+        </div>
+      </div>
+
+      <div class="info-col">
+        <h4 style="text-align:center;margin-bottom:6px">One brand — many doors</h4>
+        <p class="meta" style="text-align:center;margin:0 0 10px">Examples of clean, memorable entry points</p>
+        <ul class="sublist">
+          <li>app.staff.zone — Workers app</li>
+          <li>login.staff.zone — Secure login</li>
+          <li>jobs.staff.zone — Open roles</li>
+          <li>pay.staff.zone — Pay & W‑2</li>
+          <li>hire.staff.zone — For clients</li>
+        </ul>
+        <p class="meta" style="text-align:center;margin-top:10px">Use as primary entry or 301 to existing systems — flexible by design.</p>
+      </div>
+
+      <div class="info-col">
+        <h4>Implementation options</h4>
+        <ul class="checklist">
+          <li><div class="check">✔</div><div><b>Subdomains</b> — supports clean addresses like <code>app</code>, <code>login</code>, <code>jobs</code>.</div></li>
+          <li><div class="check">✔</div><div><b>Redirects</b> — can 301/302 to existing portals or HRIS.</div></li>
+          <li><div class="check">✔</div><div><b>Campaign mail</b> — optional use of <code>@staff.zone</code> with standard SPF/DKIM/DMARC (configured by buyer).</div></li>
+          <li><div class="check">✔</div><div><b>Transfer</b> — escrow‑backed marketplace or direct registrar transfer.</div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- VALUE GRID: three cards -->
+    <section class="grid">
+      <div class="card">
+        <h3>Why this domain is valuable</h3>
+        <p class="meta">Exact‑match clarity</p>
+        <p>It’s the brand <em>as spoken</em>. In print, on trucks, in radio and QR — fewer characters, higher recall, cleaner voiceover.</p>
+      </div>
+      <div class="card">
+        <h3>Low‑friction adoption</h3>
+        <p class="meta">Works with your stack</p>
+        <p>Point subdomains to existing apps or HRIS. Keep your .com as corporate hub and use STAFF.ZONE for employees and campaigns.</p>
+      </div>
+      <div class="card">
+        <h3>Security posture</h3>
+        <p class="meta">Reduce confusion</p>
+        <p>Owning the exact string limits look‑alike abuse and supports consistent DMARC‑aligned mail for campaigns (e.g., <code>jobs@staff.zone</code>).</p>
+      </div>
+    </section>
+
+    <!-- OFFER DETAILS -->
+    <section class="offer">
       <div class="panel">
         <h3 style="margin:0 0 8px;text-align:center">Offer details</h3>
         <div class="bullets" style="max-width:760px;margin:12px auto 0">
@@ -103,7 +169,7 @@
     </section>
 
     <footer>
-      <p>Acquisition inquiries: <a href="mailto:tom@tomdolega.com?subject=STAFF.ZONE%20—%20acquisition%20inquiry">tom@tomdolega.com</a> • <a href="https://www.godaddy.com/en/domainsearch/find?domainToCheck=staff.zone" target="_blank">Buy or Lease on GoDaddy</a></p>
+      <p>Acquisition inquiries: <a href="mailto:tom@tomdolega.com?subject=STAFF.ZONE%20—%20acquisition%20inquiry">tom@tomdolega.com</a> • <a href="https://www.godaddy.com/en/domainsearch/find?domainToCheck=staff.zone" target="_blank" rel="noopener">Buy or Lease on GoDaddy</a></p>
       <p class="meta">© <span id="y"></span> STAFF.ZONE — premium brand‑match domain (private sale).</p>
     </footer>
   </div>
